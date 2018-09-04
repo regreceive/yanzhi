@@ -10,11 +10,6 @@ $ yarn install
 $ yarn start
 ```
 
-带调试(sourcemap和css原命名)打包
-```shell
-$ yarn build
-```
-
 产品打包
 ```shell
 $ yarn build
