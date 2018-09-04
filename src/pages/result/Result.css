@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  padding: 60px 0 0;
+  background: url(../../assets/bg.png);
+  background-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.splash img {
+  width: 520px;
+  height: 503px;
+  display: block; }
+
+.splash p {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0 0; }
+
+.tpl {
+  width: 658px;
+  height: 880px; }
+  .tpl img {
+    width: 658px;
+    height: 880px; }
+
+.qun {
+  position: relative;
+  transform: translateY(-50px);
+  width: 658px;
+  height: 276px;
+  background: url(./assets/dban.png) no-repeat;
+  background-size: 658px 276px; }
+  .qun button {
+    border-width: 0;
+    outline: 0; }
+  .qun .row {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(75px); }
+    .qun .row .back {
+      padding: 10px;
+      margin: 0 0 0 88px;
+      font-size: 24px;
+      color: #0C1D55;
+      background-color: transparent; }
+    .qun .row .text {
+      padding: 10px;
+      font-size: 24px;
+      color: #0C1D55;
+      margin: 0 80px 0 0; }
+  .qun .btn {
+    position: absolute;
+    width: 500px;
+    height: 90px;
+    transform: translateX(79px) translateY(85px);
+    background: url(./assets/ruqun.png);
+    background-size: 500px 90px; }

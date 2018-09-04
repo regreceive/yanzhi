@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/**
+ 如果等比缩小，以手机字号为基准的话，PC字体则会显得很大。所以给PC再单独设计一个字号。用来覆盖前面设置的手机字号。
+ examples
+ .title {
+    font-size: 20px;
+    include pc(16px);
+ }
+
+ 默认媒体查询里面的像素不作rem转换。如果postcss-pxtorem作了允许转换的设置。可以使用大写的PX来规避这个问题。
+  */

@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  padding: 60px 0;
+  background: url(../../assets/bg.png);
+  background-size: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.title {
+  color: #0A1F54;
+  font-size: 40px;
+  text-align: center; }
+
+.agreement {
+  color: #0A1F54;
+  font-size: 24px;
+  text-align: center; }
+
+.qrc {
+  margin: 50px 0; }
+  .qrc img {
+    width: 488px;
+    height: 488px; }

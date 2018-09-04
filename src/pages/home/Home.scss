@@ -1,0 +1,57 @@
+.container {
+  flex: 1;
+  background: url(./assets/didi.png) center top no-repeat;
+  background-size: cover;
+}
+
+.title {
+  width: 650px;
+  margin: 120px auto 0;
+}
+
+.pc {
+  width: 520px;
+  height: 503px;
+  margin: 60px auto 0;
+  padding: 35px 38px;
+  background: url(./assets/diannao.png) no-repeat;
+  background-size: contain;
+
+  img {
+    display: block;
+    position: relative;
+    width: 336px;
+    height: 335px;
+    margin: auto;
+  }
+}
+
+.bottom-wrap {
+  margin: 10px 0 0;
+
+  .btn-wrap {
+    width: 635px;
+    height: 452px;
+    margin: 0 0 0 78px;
+    padding: 46px 109px;
+    background: url(./assets/anniud.png);
+    background-size: contain;
+
+    > .button {
+      display: block;
+      width: 378px;
+      height: 121px;
+      background: url(./assets/anniu.png);
+      background-size: contain;
+      border-width: 0;
+      outline: 0;
+    }
+
+    > .qrc {
+      display: block;
+      margin: 60px 0 0 115px;
+      width: 170px;
+      height: 170px;
+    }
+  }
+}

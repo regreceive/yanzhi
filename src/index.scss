@@ -1,0 +1,9 @@
+@import './responsive/responsive.scss';
+
+html, body {
+  color: #222;
+  font-weight: 400;
+  font-family: PingFangSC, "helvetica neue", "hiragino sans gb", arial, "microsoft yahei ui", "microsoft yahei", simsun, sans-serif;
+}
+
+@include responsive;
